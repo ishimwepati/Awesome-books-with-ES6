@@ -74,5 +74,3 @@ const addButton = document.getElementById('addButton');
 addButton.addEventListener('click', () => {
   bookManager.Bookadded();
 });
-
-export default ManageBookDetails;

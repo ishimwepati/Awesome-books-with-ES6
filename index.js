@@ -1,6 +1,5 @@
-// index.js
-import listnav from './modules/nav.js';                                                                               // eslint-disable-line max-classes-per-file
-import ManageBookDetails from './modules/manageBookDetails.js';                                                        // eslint-disable-line max-classes-per-file
+import './modules/nav.js';
+import './modules/manageBookDetails.js';
 import getCurrentDateTime from './modules/data_time.js';
 
 const now = getCurrentDateTime();
