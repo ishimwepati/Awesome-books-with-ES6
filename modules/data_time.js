@@ -1,6 +1,7 @@
+import { DateTime } from './luxon.js';
 
-import { DateTime } from "./luxon.js";
-
-export function getCurrentDateTime() {
-    return DateTime.local();
+function getCurrentDateTime() {
+  return DateTime.local();
 }
+
+export default getCurrentDateTime;

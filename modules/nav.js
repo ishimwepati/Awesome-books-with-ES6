@@ -1,6 +1,4 @@
-
-
-export const listnav = document.querySelector('.list-nav');
+const listnav = document.querySelector('.list-nav');
 const contactNav = document.querySelector('.contact-nav');
 const listContainer = document.querySelector('.container');
 const addNav = document.querySelector('.add-nav');
@@ -23,3 +21,5 @@ contactNav.addEventListener('click', () => {
   listContainer.classList.remove('active');
   form.classList.remove('active');
 });
+
+export default listnav;
